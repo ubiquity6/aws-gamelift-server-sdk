@@ -13,7 +13,7 @@
 #include <aws/gamelift/internal/network/AuxProxyMessageHandler.h>
 #include <aws/gamelift/internal/network/AuxProxyMessageSender.h>
 #include <aws/gamelift/server/protocols/sdk.pb.h>
-#include <sioclient/sio_client.h>
+#include <sio_client.h>
 #include <condition_variable>
 
 namespace Aws
